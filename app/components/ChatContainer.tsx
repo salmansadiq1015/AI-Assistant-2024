@@ -161,11 +161,11 @@ const ChatContainer = () => {
           placeholder="Message Assistant..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-[92%] border-2 border-cyan-500 rounded-md outline-none py-1 px-3 h-full bg-transparent text-[1rem] "
+          className="w-[94%] border-2 border-cyan-500 rounded-md outline-none py-1 px-3 h-full bg-transparent text-[1rem] "
         />
         <button
           disabled={!thread || sending || message === ""}
-          className="btn w-[7%] h-full flex items-center justify-center disabled:bg-pink-400 "
+          className="btn w-[3.1rem] h-full flex items-center justify-center disabled:bg-pink-400 "
           style={{
             pointerEvents:
               !thread || sending || message === "" ? "none" : "auto",
