@@ -60,7 +60,7 @@ export default function Header() {
               assistant?.id && "bg-cyan-500 shadow-md"
             }`}
           >
-            {assistant?.id.slice(0, 13)}
+            {assistant?.id.slice(0, 10)}
             {assistant?.id && "..."}
           </span>
         </div>
@@ -88,7 +88,7 @@ export default function Header() {
               file && "bg-cyan-500 shadow-md h-[1.5rem] "
             }`}
           >
-            {file?.slice(0, 13)}
+            {file?.slice(0, 10)}
             {file && "..."}
           </span>
         </div>
@@ -116,7 +116,7 @@ export default function Header() {
               assistantFile && "bg-cyan-500 shadow-md"
             }`}
           >
-            {assistantFile?.slice(0, 13)}
+            {assistantFile?.slice(0, 10)}
             {assistantFile && "..."}
           </span>
         </div>
@@ -144,7 +144,7 @@ export default function Header() {
               thread?.id && "bg-cyan-500 shadow-md"
             }`}
           >
-            {thread?.id.slice(0, 12)} {thread?.id && "..."}
+            {thread?.id.slice(0, 10)} {thread?.id && "..."}
           </span>
         </div>
         {/* 5 */}
